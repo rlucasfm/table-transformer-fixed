@@ -821,6 +821,7 @@ class TableExtractionPipeline(object):
 
 
 def output_result(key, val, args, img, img_file):
+    
     if key == 'objects':
         if args.verbose:
             print(val)
